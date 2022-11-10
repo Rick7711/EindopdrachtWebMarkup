@@ -58,7 +58,7 @@
 }
 
 
-	#tablet, #mobile, #mobilemenu, .mobile,  .flexparent5tablet, .flexparent6tablet, .flexparent7tablet, .gridimage4tablet, .gridimage5tablet, .gridimage6tablet,
+	#tablet, #mobile, #mobilemenu, .mobile, .flexparent5tablet, .flexparent6tablet, .flexparent7tablet, .gridimage4tablet, .gridimage5tablet, .gridimage6tablet,
 	.zeppimagetablet, #image3tablet, .zepptablet, .smartwatchimagetablet, #image2tablet, .smartwatchestablet, 
 	.dronecameraimagetablet, #image1tablet, .dronecameratablet
 	{
@@ -179,7 +179,7 @@
 	width: 100%;
 	height: 33%;
 }
-	#pc, #tablet, .dronecameraimage, #image1, .dronecameras, #text1, .smartwatchimage, .smartwatches, #text2,
+	#pc, #tablet, .flexparent2pctablets, #videopctablet, .dronecameraimage, #image1, .dronecameras, #text1, .smartwatchimage, .smartwatches, #text2,
 	.zeppimage, .zepp, #text3, .zeppimagetablet, #image3tablet, .zepptablet, .smartwatchimagetablet, #image2tablet, .smartwatchestablet, 
 	.dronecameraimagetablet, #image1tablet, .dronecameratablet, 
 	#navigation1, #navigation2, #navigation3, #navigation4, .flexparent1, 
