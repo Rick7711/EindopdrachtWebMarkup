@@ -1,0 +1,720 @@
+@media screen and (min-width: 1280px)
+{
+	body
+	{
+		width : 100%;
+		background-color: #CCF;
+	}
+	#gridcontainer1
+{
+	
+	border: solid 9px #F1F;
+	
+	
+	display: grid;
+	
+	grid-template-areas:
+		"article2  article1  article3"
+		"article2  article1  article3"
+		"article5  article1  article3"
+		"article5  article1  article4"
+		"article5  article1  article4"
+		"article5  article1  article4"
+		"article5  article6  article6";
+	
+}
+
+#gridcontainer2
+{
+	display: grid;
+	grid-template-areas:
+		"image1  image2  image3";
+}
+
+#gridcontainer3
+{
+	display: grid;
+	
+	grid-template-areas:
+		"articleaboutinnovation  articleaboutinnovation"
+		"table1 image4"
+		"table1 image4"
+		"table1 image5"
+		"table1 image5"
+		"table1 image6"
+		"footer1 image6"
+		;
+}
+#gridcontainer5
+{
+	width: 50%;
+	display: grid;
+	grid-template-areas:
+	"form  image7"
+	"form  image8"
+	"form  image9"
+	;
+	
+}
+
+
+	#tablet, #mobile, #mobilemenu, .mobile, .flexparent2mobile, #videomobile, .flexparent5tablet, .flexparent6tablet, .flexparent7tablet, .gridimage4tablet, .gridimage5tablet, .gridimage6tablet,
+	.zeppimagetablet, #image3tablet, .zepptablet, .smartwatchimagetablet, #image2tablet, .smartwatchestablet, 
+	.dronecameraimagetablet, #image1tablet, .dronecameratablet
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+	body
+	{
+		width : 100%;
+		background-color: #CFC;
+	}
+	#gridcontainer1
+{
+	
+	border: solid 9px #F1F;
+	
+	
+	display: grid;
+	
+	grid-template-areas:
+		"article1  article2"
+		"article1  article2"
+		"article3  article2"
+		"article3  article5"
+		"article3  article5"
+		"article3  article5"
+		"article6  article6"
+		"article6  article6";
+	grid-auto-rows: 1fr;
+}
+	
+#gridcontainer2
+{
+	display: grid;
+	grid-template-areas:
+		"image1  image2";
+}
+#gridcontainer3
+{
+	display: grid;
+	
+	grid-template-areas:
+		"articleaboutinnovation  articleaboutinnovation"
+		"table1  table1"
+		"footer1  footer1"
+		;
+}
+#gridcontainer4
+{
+	display: grid;
+	grid-template-areas:
+		"image5tablet image6tablet";
+}
+#gridcontainer5
+{
+	width: 60%;
+	display: grid;
+	grid-template-areas:
+	"form  image7"
+	"form  image8"
+	"form  image9";
+}
+
+	#pc, #mobile, #mobilemenu, .mobile, .flexparent2mobile, #videomobile, .flexparent5, .flexparent6, .flexparent7, 
+	.gridarticle4, .gridimage3, .gridimage4, .gridimage5, .gridimage6, .gridimage6tablet,
+	.dronecameraimage, #image1, .dronecameras, #text1, .smartwatchimage, .smartwatches, #text2,
+	.zeppimage, .zepp, #text3
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	body
+	{
+		width : 100%;
+		background-color: #FCC;
+	}
+	#gridcontainer1
+{
+	
+	border: solid 9px #F1F;
+	
+	
+	display: grid;
+	
+	grid-template-areas:
+		"article5"
+		"article3"
+		"article2"
+		"article1";
+	
+}
+#gridcontainer2
+{
+	display: grid;
+	grid-template-areas:
+		"image1"
+		"image2"
+		"image3";
+}
+#gridcontainer3
+{
+	display: grid;
+	
+	grid-template-areas:
+		"articleaboutinnovation  articleaboutinnovation"
+		"table1  table1"
+		"footer1  footer1";
+		
+}
+#sport1image, #sport2image, #sport3image
+{
+	width: 100%;
+	height: 33%;
+}
+	#pc, #tablet, .flexparent2pctablets, #videopctablet, .dronecameraimage, #image1, .dronecameras, #text1, .smartwatchimage, .smartwatches, #text2,
+	.zeppimage, .zepp, #text3, .zeppimagetablet, #image3tablet, .zepptablet, .smartwatchimagetablet, #image2tablet, .smartwatchestablet, 
+	.dronecameraimagetablet, #image1tablet, .dronecameratablet, 
+	#navigation1, #navigation2, #navigation3, #navigation4, .flexparent1, 
+	.flexparent5, .flexparent6, .flexparent7, .flexparent5tablet, .flexparent6tablet, .flexparent7tablet, 
+	.gridarticle4, .gridarticle6, .gridimage4tablet, .gridimage5tablet, .gridimage6tablet
+	{
+		display: none;
+	}
+}
+
+table, td, th
+{
+	border: 1px solid;
+	border-color: #DFE;
+	text-align: center;
+	border-width: 7px;
+	border-style: double;
+	
+}
+th
+{
+	background-color: #D9B1E1;
+}
+td
+{
+	background-color: #89EEF7;
+}
+.flexparent1
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;	
+	background-color: #D6D6D6;
+}
+
+.flexparent2pctablets, .flexparent2mobile
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 40%;
+	height: 40%;
+}
+
+
+
+.flexparent3
+{
+	display: flex;
+	width: 10%;
+	height: 5%;
+}
+
+.flexparent4
+{
+	position:fixed;
+	float: right;
+	width: 91%;
+	
+}
+
+.flexparent5
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	background-color: #EDDEED;
+	
+}
+
+.flexparent5tablet
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: #EDDEED;
+	font-size: 2vw;
+}
+
+.dronecameras
+{
+	width: 40%;
+	
+}
+
+.dronecameraimage
+{
+	
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+.dronecameraimagetablet
+{
+	
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+#text1
+{
+	flex-basis: 80%;
+	
+}
+.dronecameratablet
+{
+	width: 100%
+}
+
+#image1tablet
+{
+	flex-basis: 50%;
+
+}
+
+.dronecameraimagetablet
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.flexparent6
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	background-color: #EDFEEF;
+}
+
+.flexparent6tablet
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: #EDFEEF;
+	font-size: 2vw;
+}
+.smartwatches
+{
+	width: 40%;
+	
+}
+
+.smartwatchimage
+{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+
+#text2
+{
+	flex-basis: 80%;
+	
+}
+.smartwatchestablet
+{
+	width: 100%
+}
+
+#image2tablet
+{
+	flex-basis: 50%;
+
+}
+
+.smartwatchimagetablet
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.flexparent7
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	background-color: #EDEEFF;
+	
+}
+.flexparent7tablet
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: #EDEEFF;
+	font-size: 2vw;
+}
+.zepp
+{
+	width: 40%;
+	
+}
+
+.zeppimage
+{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+#text3
+{
+	flex-basis: 80%;
+	
+}
+.zepptablet
+{
+	width: 100%
+}
+
+#image3tablet
+{
+	flex-basis: 50%;
+
+}
+
+.zeppimagetablet
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.zeppimagemobile
+{
+	display: block;
+	margin: 0 auto;
+	height: 30%;
+	width: 40%;
+	
+}
+
+.zeppmobile
+{
+	width: 60%;
+	background-color: #EDEEFF;
+}
+
+.smartwatchimagemobile
+{
+	display: block;
+	margin: 0 auto;
+	height: 30%;
+	width: 40%;
+	
+}
+
+.smartwatchmobile
+{
+	width: 60%;
+	background-color: #EDFEEF;
+}
+
+.dronecameraimagemobile
+{
+	display: block;
+	margin: 0 auto;
+	height: 30%;
+	width: 40%;
+	
+}
+
+.dronecameramobile
+{
+	width: 60%;
+	background-color: #EDDEED;
+}
+
+.upcoming-routes
+{
+	position: fixed;
+	right: 0;
+	bottom: 40%;
+}
+
+
+
+
+.gridarticle1
+{
+	word-spacing: 1px;
+	text-indent: 3%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	grid-area: article1;
+	background-color: #F8FFAD;
+}
+
+.gridarticle2
+{
+	word-spacing: 1px;
+	text-indent: 3%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	grid-area: article2;
+	background-color: #A0FFC4;
+}
+
+.gridarticle3
+{
+	word-spacing: 1px;
+	text-indent: 3%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	grid-area: article3;
+	background-color: #8997B7;
+}
+
+.gridarticle4
+{
+	word-spacing: 1px;
+	text-indent: 3%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	grid-area: article4;
+	background-color: #89B78F;
+}
+
+.gridarticle5
+{
+	word-spacing: 1px;
+	text-indent: 3%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	grid-area: article5;
+	background-color: #ADD7DE;
+}
+
+.gridarticle6
+{
+	word-spacing: 1px;
+	text-indent: 3%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	grid-area: article6;
+	background-color: #EAD7BD;
+}
+
+.gridarticleaboutinnovation
+{
+	grid-area: articleaboutinnovation;
+	background-color: #9997B7;
+}
+.gridtable
+{
+	grid-area: table1;
+	background-color: #EAD7BD;
+}
+
+.gridfooter
+{
+	grid-area: footer1;
+	background-color: #8997B7;
+}
+
+.gridformcontact
+{
+	grid-area: form;
+}
+.gridimage1
+{
+	grid-area: image1;
+}
+
+.gridimage2
+{
+	grid-area: image2;
+}
+
+.gridimage3
+{
+	grid-area: image3;
+}
+
+.gridimage4
+{
+	grid-area: image4;
+}
+
+.gridimage5
+{
+	grid-area: image5;
+}
+
+.gridimage6
+{
+	grid-area: image6;
+}
+.gridimage7
+{
+	grid-area: image7;
+}
+
+.gridimage8
+{
+	grid-area: image8;
+}
+
+.gridimage9
+{
+	grid-area: image9;
+}
+.gridimage4tablet
+{
+	grid-area: image4tablet;
+}
+
+.gridimage5tablet
+{
+	grid-area: image5tablet;
+}
+
+.gridimage6tablet
+{
+	grid-area: image6tablet;
+}
+#header2
+{
+	font-size: 3vw;
+}
+	
+#navigation1
+{
+	
+	flex-basis: 25%;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+#navigation2
+{
+	
+	flex-basis: 25%;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+#navigation3
+{
+	
+	flex-basis: 25%;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+#navigation4
+{
+	
+	flex-basis: 25%;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+#var1image, #var2image, #var3image
+{
+	height: 100%;
+	width: 100%;
+}
+#bat1image, #bat2image, #bat3image
+{ 
+	height: 34.5%;
+	width: 50%;	
+}
+#bat1imagetablet, #bat2imagetablet, #bat3imagetablet
+{ 
+	height: 100%;
+	width: 100%;	
+}
+
+.menu, .menu ul, .menu li
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	
+}
+
+.menu
+{
+	float: right;
+}
+.menu li
+{
+	
+	list-style: none;
+}
+
+.menu ul
+	{
+	position: absolute;
+	opacity: 0;
+	background: #D6D6D6;
+	list-style: none;
+	float: left;
+	width: 11%;
+	}
+.menu li:hover > ul
+	{
+	opacity: 1;
+	}
+.menu ul:hover > ul
+{
+	opacity: 1;
+}
+.menu li:hover > ul li
+	{
+	height: 40px;
+	opacity: 1;
+	}
+.menu ul li a 
+	{	
+	width: 10%;
+	}
+/*fixed and bottom: 0;  and right: 0; means that the cookie statement is always on the bottemright of the frame*/
+.cookie-statement
+{
+	position: fixed;
+	z-index : 9999;
+	opacity: 50%;
+	background-color: #FA0;
+	bottom: 0;
+	right: 0;
+}
+
+.cookie-statement
+{
+	color: #FFF;
+}
+
+a:hover 
+{
+  color: #0000FF;
+}
+
+a:active 
+{
+  color: #FF0FF0;
+}
