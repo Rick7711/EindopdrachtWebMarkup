@@ -1,5 +1,5 @@
 student name: Rick Onderwater
 student number: 699181
 student class: Inf1B
-URL student GitHub website:
-URL student GitHub repository:
+URL student GitHub website: 
+URL student GitHub repository: https://github.com/Rick7711/Rick7711.github.io
